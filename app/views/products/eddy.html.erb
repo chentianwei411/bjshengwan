@@ -4,7 +4,7 @@
 
 <div class="card" style="margin-top:10px;">
   <div class="card-header bg-light"><%= t(:eddy)%></div>
-  <div class="card-body">
+  <!-- <div class="card-body">
     <% if params[:locale] == "en"%>
       <ul>
         <li>Position • Displacement</li>
@@ -18,6 +18,20 @@
         <li>标准化解决方案和定制解决方案</li>
       </ul>
     <% end %>
+  </div> -->
+  <div class="card-body">
+    <span>
+      <%= link_to(tag.img(src:"../images/ECL202.png", alt:"", style: "width: 300px; height: 200px; ", class: 'img-thumbnail'), "/") %>
+    <span>
+    <span>
+      <%= link_to(tag.img(src:"../images/ECL150.png", alt:"", style: "width: 300px; height: 200px; ", class: 'img-thumbnail'), "/") %>
+    </span>
+    <span>
+      <%= link_to(tag.img(src:"../images/ECL110.png", alt:"", style: "width: 300px; height: 200px; ", class: 'img-thumbnail'), "/") %>
+    </span>
+    <span>
+      <%= link_to(tag.img(src:"../images/ECA101.png", alt:"", style: "width: 300px; height: 200px; ", class: 'img-thumbnail'), "/") %>
+    </span>
   </div>
 </div>
 
