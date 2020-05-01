@@ -28,6 +28,7 @@ Rails.application.routes.draw do
       get 'spindle'
       get "spindle/sea", to: 'products#spindlesea'
       get "spindle/sci", to: 'products#spindlesci'
+      get "spindle/sca", to: 'products#spindlesca'
     end
   end
 
