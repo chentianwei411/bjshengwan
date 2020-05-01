@@ -29,6 +29,14 @@
             <%= link_to t("spindle"), spindle_products_path(locale: params[:locale]), class: "dropdown-item"%>
           </div>
         </li>
+
+        <li class="nav-item dropdown">
+          <%= link_to "联系我们", "/", id: "navbar-dropdown", class: "nav-link dropdown-toggle", data: {toggle: "dropdown"}%>
+          <div class="dropdown-menu">
+            <%= link_to "电话:17154452966", "/", class: "dropdown-item"%>
+          </div>
+        </li>
+
         <% if params[:locale] == "chinese" %>
           <li class="nav-item"><%= link_to "English", request.original_url.gsub(/=chinese/, '=en'), class: "nav-link"%></li>
         <% elsif params[:locale] == "en" %>
