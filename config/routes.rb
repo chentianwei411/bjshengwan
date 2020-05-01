@@ -17,6 +17,14 @@ Rails.application.routes.draw do
       get 'eddy/eca101' , to: 'products#eca101'
 
       get 'capacitor'
+      get 'capacitor/cpl590', to: "products#cpl590"
+      get 'capacitor/cpl190', to: "products#cpl190"
+      get 'capacitor/cpl230', to: "products#cpl230"
+      get 'capacitor/cpl350', to: "products#cpl350"
+      get 'capacitor/cpl490', to: "products#cpl490"
+      get 'capacitor/cplclvdt', to: "products#cplclvdt"
+
+
       get 'spindle'
       get "spindle/sea", to: 'products#spindlesea'
       get "spindle/sci", to: 'products#spindlesci'
