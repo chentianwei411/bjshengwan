@@ -15,7 +15,7 @@
         </p>
       </div>
       <div class="col-3" style="">
-        <p style="margin-bottom:0px;" align="center"><%= link_to "label6300", label_products_products_path %></p>
+        <p style="margin-bottom:0px;" align="center"><%= link_to "label6300", label_label6300_products_path %></p>
         <p align="center"><%= link_to(tag.img(src:"../images/LRD6300.jpg", alt:"6300", style: "width: 100%; height: auto; ", class: 'img-thumbnail'), label_label6300_products_path) %></p>
         <p style="margin-bottom:0px; padding-left: 0px;">
           <small>小型封装中多达8个通道的高性能位移传感。</small>
@@ -38,3 +38,9 @@
     </div>
   </div>
 </div>
+
+<% if params[:locale] != "en"%>
+  <%= render "label_chinese"%>
+<% else %>
+  <%= render "label_en"%>
+<% end %>
