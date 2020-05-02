@@ -10,7 +10,7 @@ Rails.application.routes.draw do
       get 'label/LRD6300' , to: 'products#label6300'
       get 'label/LRD8200' , to: 'products#label8200'
       get 'label/LionEye' , to: 'products#lioneye'
-      get 'eddy'
+
 
       get 'eddy/ecl202' , to: 'products#ecl202'
       get 'eddy/ecl150' , to: 'products#ecl150'
