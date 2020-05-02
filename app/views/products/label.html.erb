@@ -9,21 +9,21 @@
     <div class="row">
       <div class="col-3" style=" ">
         <p style="margin-bottom:0px;" align="center"><%= link_to "Label2100", label_label2100_products_path %></p>
-        <p align="center"><%= link_to(tag.img(src:"../images/LRD2100.png", alt:"", style: "width: 100%; height: auto; ", class: 'img-thumbnail'), label_label2100_products_path) %></p>
+        <p align="center"><%= link_to(tag.img(src:"../images/LRD2100.jpg", alt:"", style: "width: 100%; height: auto; ", class: 'img-thumbnail'), label_label2100_products_path) %></p>
         <p style="margin-bottom:0px; padding-left: 0px;">
           <small>高精度，具有数字核心和按钮控件。</small>
         </p>
       </div>
       <div class="col-3" style="">
-        <p style="margin-bottom:0px;" align="center"><%= link_to "label6300", label_label6300_products_path%></p>
-        <p align="center"><%= link_to(tag.img(src:"../images/LRD6300.png", alt:"", style: "width: 100%; height: auto; ", class: 'img-thumbnail'), label_label6300_products_path) %></p>
+        <p style="margin-bottom:0px;" align="center"><%= link_to "label6300", label_products_products_path %></p>
+        <p align="center"><%= link_to(tag.img(src:"../images/LRD6300.jpg", alt:"", style: "width: 100%; height: auto; ", class: 'img-thumbnail'), label_label6300_products_path) %></p>
         <p style="margin-bottom:0px; padding-left: 0px;">
           <small>小型封装中多达8个通道的高性能位移传感。</small>
         </p>
       </div>
       <div class="col-3" style="">
         <p style="margin-bottom:0px;" align="center"><%= link_to "Label8200", label_label8200_products_path%></p>
-        <p align="center"><%= link_to(tag.img(src:"../images/LRD8200.png", alt:"", style: "width: 100%; height: auto; ", class: 'img-thumbnail'), label_label8200_products_path) %></p>
+        <p align="center"><%= link_to(tag.img(src:"../images/LRD8200.jpg", alt:"", style: "width: 100%; height: auto; ", class: 'img-thumbnail'), label_label8200_products_path) %></p>
         <p style="margin-bottom:0px; padding-left: 0px;">
           <small>高达80kHz带宽的线性输出。现场校准。</small>
         </p>
@@ -37,5 +37,6 @@
       </div>
     </div>
   </div>
-
 </div>
+
+<%= render "label_chinese"%>
